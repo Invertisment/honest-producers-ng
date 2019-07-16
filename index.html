@@ -1,33 +1,43 @@
-<!doctype html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34684079-2"></script>
-        <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- For search engines -->
+    <link rel="canonical" href="https://www.mmaciul.lt/">
+    <meta charset="UTF-8">
+    <!-- MUI material css framework -->
+    <link href="https://cdn.muicss.com/mui-0.9.41/extra/mui-rem.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <section class="flex flex--column title-row">
+      <section class="flex flex--column flex--align-center margin-auto">
+        <h1>EOS tools directory</h1>
+        <h4>By <a href="https://eosio.lt/" target="_blank" class="monospace">eoslithuania</a></h4>
+      </section>
+    </section>
 
-         gtag('config', 'UA-34684079-2');
-        </script>
-
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <title>Honest producers</title>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="styles.9f8b6eb64f57fd3977ff.css"></head>
-    <body class="mat-app-background mat-typography">
-
-        <h2 id="no-js">Webpage only works with JavaScript enabled</h2>
-
-        <script>
-         var noJs = document.getElementById("no-js");
-         noJs.parentNode.removeChild(noJs);
-        </script>
-
-        <app-root></app-root>
-    <script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.7a0e6866a34e280f48e7.js"></script><script type="text/javascript" src="main.c493a8fc5d623be68c05.js"></script></body>
+    <section class="mui-container flex flex--column">
+      <h2>Tools</h2>
+      <div class="mui-row">
+        <div class="mui-col-md-6">
+          <div class="mui-container mui-panel">
+            <h2>
+              <a href="https://mmaciul.lt/honest-producers" target="_blank">
+                EOS block producer browser
+              </a>
+            </h2>
+            <p>
+            Explore summarized data of EOS block producers.
+            Vote for your favourite block producers through <a href="https://github.com/CryptoLions/EOS-MainNet/blob/master/cleos.sh" target="_blank">cleos script</a>.
+            </p>
+            <a href="https://mmaciul.lt/honest-producers" target="_blank">
+              <img src="img/producers.png" class="card-img"></img>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <body>
 </html>
